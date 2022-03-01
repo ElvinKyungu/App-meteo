@@ -6,6 +6,12 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+a{
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
 body{
   display: flex;
   align-items: center;
@@ -203,4 +209,12 @@ header i{
 }
 .humidity i{
   font-size: 37px;
+}
+.copyright{
+  background: #e04b1d;
+  color: #fff;
+  text-align: center;
+}
+#year a{
+  color: #000;
 }
